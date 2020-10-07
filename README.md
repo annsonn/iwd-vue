@@ -32,11 +32,17 @@ npm run test:unit
 
 #### Notes:
 
-add unit tests with vue cli
+- add unit tests with vue cli
+- https://vue-test-utils.vuejs.org/
 
 ```
  vue add unit-jest
 ```
+
+### State Management
+
+- using VueX
+- install dependency via `vue ui`
 
 ### Customize configuration
 
