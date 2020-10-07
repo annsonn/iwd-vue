@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation should render and match snapshot 1`] = `
+VueWrapper {
+  "__app": Object {
+    "_component": Object {
+      "__emits": Object {
+        "0": Object {},
+      },
+      "__props": Object {
+        "0": Array [
+          Object {},
+          Array [],
+        ],
+      },
+      "name": "VTU_ROOT",
+      "render": [Function],
+    },
+    "_container": <div
+      data-v-app=""
+      id="app"
+    >
+      <nav
+        id="nav"
+      >
+        <ul
+          id="main-nav"
+        >
+          <li
+            class="nav-item"
+          >
+            <div>
+              <router-link
+                to="/"
+              >
+                 Software Development 
+              </router-link>
+            </div>
+            <ul
+              class="sub-nav"
+            >
+              <li>
+                <router-link
+                  to="/"
+                >
+                   Our Services 
+                </router-link>
+              </li>
+              <li>
+                <router-link
+                  to="/"
+                >
+                   Focus Areas 
+                </router-link>
+              </li>
+              <li>
+                <router-link
+                  to="/"
+                >
+                   The Intelliware Approach 
+                </router-link>
+              </li>
+              <li>
+                <router-link
+                  to="/"
+                >
+                   Success Stories 
+                </router-link>
+              </li>
+            </ul>
+          </li>
+          <li
+            class="nav-item"
+          >
+            <div>
+              <router-link
+                to="/about"
+              >
+                 Why Intelliware 
+              </router-link>
+            </div>
+            <ul
+              class="sub-nav"
+            >
+              <li>
+                <router-link
+                  to="/"
+                >
+                   Our Agile Journey 
+                </router-link>
+              </li>
+              <li>
+                <router-link
+                  to="/"
+                >
+                   Technology Leadership 
+                </router-link>
+              </li>
+              <li>
+                <router-link
+                  to="/"
+                >
+                   Community Initiatives 
+                </router-link>
+              </li>
+              <li>
+                <router-link
+                  to="/"
+                >
+                   Leadership Team 
+                </router-link>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>,
+    "_context": Object {
+      "app": [Circular],
+      "components": Object {},
+      "config": Object {
+        "errorHandler": undefined,
+        "globalProperties": Object {},
+        "isCustomElement": [Function],
+        "isNativeTag": [Function],
+        "optionMergeStrategies": Object {},
+        "performance": false,
+        "warnHandler": undefined,
+      },
+      "directives": Object {},
+      "mixins": Array [
+        Object {
+          "__emits": Object {
+            "0": null,
+          },
+          "__props": Object {
+            "0": Array [],
+          },
+          "beforeCreate": [Function],
+        },
+        Object {
+          "__emits": Object {
+            "0": null,
+          },
+          "__props": Object {
+            "0": Array [],
+          },
+          "beforeCreate": [Function],
+        },
+      ],
+      "provides": Object {},
+      "reload": [Function],
+    },
+    "_props": null,
+    "_uid": 0,
+    "component": [Function],
+    "config": Object {
+      "errorHandler": undefined,
+      "globalProperties": Object {},
+      "isCustomElement": [Function],
+      "isNativeTag": [Function],
+      "optionMergeStrategies": Object {},
+      "performance": false,
+      "warnHandler": undefined,
+    },
+    "directive": [Function],
+    "mixin": [Function],
+    "mount": [Function],
+    "provide": [Function],
+    "unmount": [Function],
+    "use": [Function],
+    "version": "3.0.0",
+  },
+  "__isFunctionalComponent": false,
+  "__setProps": [Function],
+  "componentVM": Object {
+    "__emitted": Object {},
+  },
+  "rootVM": Object {
+    "__emitted": Object {},
+  },
+}
+`;
