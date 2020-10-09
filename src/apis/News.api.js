@@ -1,9 +1,10 @@
+import Axios from "axios";
+
 const fetchNews = async () => {
-  const response = await fetch(
+  const response = await Axios.get(
     "https://us-central1-iwd-sandbox.cloudfunctions.net/news"
   );
-  console.log("fetchNews", response);
-  return response;
+  return response.data;
 };
 
 export default {
