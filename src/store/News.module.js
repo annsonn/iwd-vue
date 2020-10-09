@@ -1,4 +1,4 @@
-import newsApi from '../apis/News.api';
+import newsApi from "../apis/News.api";
 
 const state = () => ({
   isLoading: false,
@@ -7,18 +7,18 @@ const state = () => ({
 
 // getters
 const getters = {
-  newItems: state => state.news
+  newItems: (state) => state.news,
 };
 
 // actions
 const actions = {
-  getNews({ commit }) {
+  async getNews({ commit }) {
     commit("setLoading", true);
-    try {      
+    try {
       const news = await newsApi.fetchNews();
-      commit("setNews", news); 
+      commit("setNews", news);
     } catch (e) {
-      console.error('Error loading news');      
+      console.error("Error loading news");
     }
     commit("setLoading", false);
   },
@@ -27,11 +27,11 @@ const actions = {
 // mutations
 const mutations = {
   setLoading(state, isLoading) {
-    state.isLoading = isLoading
+    state.isLoading = isLoading;
   },
   setNews(state, news) {
     state.news = news;
-  }
+  },
 };
 
 export default {
