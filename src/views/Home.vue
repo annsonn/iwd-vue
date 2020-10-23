@@ -2,9 +2,7 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
-    <button :disabled="isLoading" @click="getNews">
-      Get News
-    </button>
+    <button :disabled="isLoading" @click="getNews">Get News</button>
     {{ news }}
   </div>
 </template>

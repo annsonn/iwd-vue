@@ -8,6 +8,7 @@ const state = () => ({
 // getters
 const getters = {
   newItems: (state) => state.news,
+  isLoading: (state) => state.isLoading,
 };
 
 // actions
