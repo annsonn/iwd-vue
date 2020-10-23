@@ -5,13 +5,13 @@ const state = () => ({
   news: [],
 });
 
-// getters
+// getters aka React Selecters
 const getters = {
   newItems: (state) => state.news,
   isLoading: (state) => state.isLoading,
 };
 
-// actions
+// actions aka React-Saga + React Action
 const actions = {
   async getNews({ commit }) {
     commit("setLoading", true);
@@ -25,7 +25,7 @@ const actions = {
   },
 };
 
-// mutations
+// mutations aka React Reducer
 const mutations = {
   setLoading(state, isLoading) {
     state.isLoading = isLoading;
