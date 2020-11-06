@@ -41,28 +41,28 @@ VueWrapper {
             >
               <li>
                 <router-link
-                  to="/"
+                  to="/news"
                 >
                    Our Services 
                 </router-link>
               </li>
               <li>
                 <router-link
-                  to="/"
+                  to="/news"
                 >
                    Focus Areas 
                 </router-link>
               </li>
               <li>
                 <router-link
-                  to="/"
+                  to="/news"
                 >
                    The Intelliware Approach 
                 </router-link>
               </li>
               <li>
                 <router-link
-                  to="/"
+                  to="/news"
                 >
                    Success Stories 
                 </router-link>
@@ -74,7 +74,7 @@ VueWrapper {
           >
             <div>
               <router-link
-                to="/about"
+                to="/news"
               >
                  Why Intelliware 
               </router-link>
