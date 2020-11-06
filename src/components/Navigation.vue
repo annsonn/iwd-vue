@@ -3,59 +3,39 @@
     <ul id="main-nav">
       <li class="nav-item">
         <div>
-          <router-link to="/">
-            Software Development
-          </router-link>
+          <router-link to="/"> Software Development </router-link>
         </div>
         <ul class="sub-nav">
           <li>
-            <router-link to="/">
-              Our Services
-            </router-link>
+            <router-link to="/news"> Our Services </router-link>
           </li>
           <li>
-            <router-link to="/">
-              Focus Areas
-            </router-link>
+            <router-link to="/news"> Focus Areas </router-link>
           </li>
           <li>
-            <router-link to="/">
-              The Intelliware Approach
-            </router-link>
+            <router-link to="/news"> The Intelliware Approach </router-link>
           </li>
           <li>
-            <router-link to="/">
-              Success Stories
-            </router-link>
+            <router-link to="/news"> Success Stories </router-link>
           </li>
         </ul>
       </li>
       <li class="nav-item">
         <div>
-          <router-link to="/about">
-            Why Intelliware
-          </router-link>
+          <router-link to="/news"> Why Intelliware </router-link>
         </div>
         <ul class="sub-nav">
           <li>
-            <router-link to="/">
-              Our Agile Journey
-            </router-link>
+            <router-link to="/"> Our Agile Journey </router-link>
           </li>
           <li>
-            <router-link to="/">
-              Technology Leadership
-            </router-link>
+            <router-link to="/"> Technology Leadership </router-link>
           </li>
           <li>
-            <router-link to="/">
-              Community Initiatives
-            </router-link>
+            <router-link to="/"> Community Initiatives </router-link>
           </li>
           <li>
-            <router-link to="/">
-              Leadership Team
-            </router-link>
+            <router-link to="/"> Leadership Team </router-link>
           </li>
         </ul>
       </li>
